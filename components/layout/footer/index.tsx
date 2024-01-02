@@ -14,7 +14,7 @@ export const Footer = () => {
             height={38}
           />
         </Link>
-        <p>2024 Evently, All Rights Reserved! xD</p>
+        <p>2024 Evently, All Rights Reserved xD !</p>
       </div>
     </footer>
   );

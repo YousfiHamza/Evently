@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { AllEvents } from '@/components/sections/events';
+import { HomeHero } from '@/components/sections/hero';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-12 p-24">
-      <h1 className="text-4xl">Evently</h1>
-      <Button variant="destructive">Click me</Button>
+    <main>
+      <HomeHero />
+      <AllEvents />
     </main>
   );
 }
