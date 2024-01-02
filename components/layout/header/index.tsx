@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
+import { DesktopNav } from '@/components/modules/Navigation/desktop';
+import { MobileNav } from '@/components/modules/Navigation/mobile';
 
 export const Header = () => {
   return (
@@ -16,12 +18,15 @@ export const Header = () => {
             height={38}
           />
         </Link>
+
+        <SignedIn>
+          <DesktopNav />
+        </SignedIn>
+
         <div className="flex w-32 items-center justify-end gap-3">
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
-            {/* <Button asChild className="rounded-full" size="lg">
-              <Link href="/dashboard">Dashboard</Link>
-            </Button> */}
+            <MobileNav />
           </SignedIn>
           <SignedOut>
             <Button asChild className="rounded-full" size="lg">
