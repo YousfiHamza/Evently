@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 
 import { headerLinks } from '@/constants/header';
 import Link from 'next/link';

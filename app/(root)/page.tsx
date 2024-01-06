@@ -3,9 +3,9 @@ import { HomeHero } from '@/components/sections/hero';
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HomeHero />
       <AllEvents />
-    </main>
+    </>
   );
 }

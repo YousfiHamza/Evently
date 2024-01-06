@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { NavItems } from '../../navItems';
 
 export const DesktopNav = () => {
